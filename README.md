@@ -5,7 +5,7 @@ This project can be used to deploy pgpool2 inside a Docker container for transpa
 
 ### Running the Container
 
-```sudo docker run --name pgpool2 -e PGPOOL_BACKENDS=1:127.0.0.1:5432,2:127.0.0.1:5433 -p 5432:5432/tcp bettervoice/pgpool2:3.3.4```
+```sudo docker run --name pgpool2 -e PGPOOL_BACKENDS=1:127.0.0.1:5432,2:127.0.0.1:5433 -p 5432:5432/tcp bettervoice/pgpool2-container:3.3.4```
 
 ### Configuration Environment Variables
 
